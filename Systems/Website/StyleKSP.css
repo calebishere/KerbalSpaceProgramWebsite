@@ -1,5 +1,16 @@
 body{
-    background-color: black;
+    background-color: grey;
     background-image: url("#");
     padding: 10px;
+}
+.navbar{
+    border-radius: 40px;
+}
+.container{
+    background-color: lightgray;
+    border-radius: 40px;
+}
+.navbar-nav{
+    font-weight: bold;
+    font-size: 23px;
 }
