@@ -5,12 +5,11 @@ body{
 }
 .navbar{
     border-radius: 30px;
-    color: aliceblue;
 }
 .container{
     background-color: lightgray;
     border-radius: 40px;
-    padding: 5px;
+    padding: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -18,6 +17,7 @@ body{
     font-weight: bold;
     font-size: 23px;
     padding: 3px;
+    
 }
 .nav-item:hover{
     border-top: 4px solid black;
