@@ -63,3 +63,12 @@ body{
     font-weight: bold;
     color: dimgray;
 }
+.PoPover:hover{
+    text-decoration: none;
+    color: dimgray;
+}
+.PoPover{
+    color: dimgray;
+    font-weight: bold;
+    padding-top: 2px;
+}
