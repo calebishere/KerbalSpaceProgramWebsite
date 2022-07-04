@@ -12,13 +12,10 @@ body{
     margin-right: auto;
 }
 .navbar{
-    border-radius: 30px;
     background-color: rgba(41, 35, 35, 0);
 }
 .container{
-    background-color: lightgray;
-    border-radius: 40px;
-    padding: 20px;
+    background-color: white;
     margin-left: auto;
     margin-right: auto;
 }
@@ -30,6 +27,12 @@ body{
 }
 .nav-item:hover{
     border-top: 4px solid black;
+}
+.Title{
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: auto;
+    margin-right: auto;
 }
 .carousel-inner{
     text-align: center;
@@ -61,7 +64,14 @@ body{
 }
 .Title{
     font-weight: bold;
-    color: dimgray;
+    color: black;
+    border: 2px solid black;
+    text-decoration: none;
+    background-color: lightgrey;
+    margin-bottom: 90px;
+    margin-top: 10px;
+    padding: 2%;
+    border-radius: 20%;
 }
 .PoPover:hover{
     text-decoration: none;
@@ -71,4 +81,13 @@ body{
     color: dimgray;
     font-weight: bold;
     padding-top: 2px;
+}
+.KSP{
+    margin-top: 1%;
+    margin-bottom: -0.5%;
+    
+}
+.caption{
+    margin-left: 0%;
+    margin-right: 0%;
 }
