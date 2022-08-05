@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><!--Head for the titles etc...-->
     <title>Document</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,35 +19,35 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <div class="container">
+    <div class="container"><!--container, holds all off the website information-->
         <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
             <!-- Toggler/collapsibe Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#"\>
-              <img id="navbar_logo" src="file:///C:/Users/caleb/OneDrive/Documents/GitHub/KerbalSpaceProgramWebsite/Systems/Photos_and_Logos/Logo/Screenshot%202022-06-10%20143531.jpg" height="200" alt="Logo">
-            </a>
+            <a class="navbar-brand" href="frontpge.html"><!--Makes logo a button so when user clicks on it, it will take them to the home page-->
+              <img id="navbar_logo" src="file:///C:/Users/caleb/OneDrive/Documents/GitHub/KerbalSpaceProgramWebsite/Systems/Photos_and_Logos/Logo/Screenshot%202022-06-10%20143531.jpg" height="200" alt="Logo"><!--Prints logo on navbar-->
+            </a><!--Closes tag-->
             <!-- Links -->
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="frontpge.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="designs.html">Rocket/Rover and More desings</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="communitymods.html">Community mods</a>
-              </li>
-            </ul>
-        </nav>
-        <div class="row">
-          <h1 class="Title">Kerbal Space Program</h1>   
-          </div>
-        <div class="row">
-          <div class="col">
-            <div id="demo" class="carousel slide" data-ride="carousel">
+            <div class="collapse navbar-collapse" id="collapsibleNavbar"> <!--Makes DIV a class and an id-->
+            <ul class="navbar-nav"><!--gives class the ul so its easier to style in CSS -->
+              <li class="nav-item"><!--Makes list a class-->
+                <a class="nav-link" href="frontpge.html">Home</a><!--Adds link to home page-->
+              </li><!--Closes specific list-->
+              <li class="nav-item"><!--Makes list a class-->
+                <a class="nav-link" href="designs.html">Rocket/Rover and More desings</a><!--Makes link to second page-->
+              </li><!--Closes list-->
+              <li class="nav-item"><!--Makes new list-->
+                <a class="nav-link" href="communitymods.html">Community mods</a><!--Makes link to community mmod page-->
+              </li><!--Closes list-->
+            </ul><!--Closes everythin (Only the lists)-->
+        </nav><!--Closes the navebar-->
+        <div class="row"><!--Adds a new row to input information more effectively-->
+          <h1 class="Title">Kerbal Space Program</h1><!--Title to my main page on website-->
+          </div><!--Closes row-->
+        <div class="row"><!--Creates a new row-->
+          <div class="col"><!--Makes a column-->
+            <div id="demo" class="carousel slide" data-ride="carousel"><!--Begins carousel-->
   
               <!-- Indicators -->
               <ul class="carousel-indicators">
@@ -57,70 +57,85 @@
               </ul>
             
               <!-- The slideshow -->
-              <div class="carousel-inner">
+              <div class="carousel-inner"><!--begins with carousel photos inside-->
                 <div class="carousel-item active">
-                  <img src="file:///C:/Users/caleb/OneDrive/Documents/GitHub/KerbalSpaceProgramWebsite/Systems/Photos_and_Logos/Photos/Rockets/Rocket2%20(1).jpg" alt="Computer" height="65%" width="65%">
-                  <div class="carousel-caption">
-                    <h3>Apollo Command Module</h3>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="file:///C:/Users/caleb/OneDrive/Documents/GitHub/KerbalSpaceProgramWebsite/Systems/Photos_and_Logos/Photos/Rockets/Rocket1.png" alt="Computer" height="65%" width="65%">
-                  <div class="carousel-caption">
-                    <h3>Basic Jool Satellite</h3>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="file:///C:/Users/caleb/OneDrive/Documents/GitHub/KerbalSpaceProgramWebsite/Systems/Photos_and_Logos/Photos/Rover/rover2.0.jpg" alt="Computer" height="65%" width="65%">
-                  <div class="carousel-caption">
-                    <h3>Crew Capable Mun Rover</h3>
-                  </div>
-                </div>
-              </div>
+                  <img src="file:///C:/Users/caleb/OneDrive/Documents/GitHub/KerbalSpaceProgramWebsite/Systems/Photos_and_Logos/Photos/Rockets/Rocket2%20(1).jpg" alt="Computer" height="65%" width="65%"><!--Adds photo to my carousel-->
+                  <div class="carousel-caption"><!--Caption of the photo in the carousel-->
+                    <h3>Apollo Command Module</h3><!--Displays title on photo-->
+                  </div><!--Closes the carousel caption-->
+                </div><!--Closes carousel; item active-->
+                <div class="carousel-item"><!--opens new carousel item-->
+                  <img src="file:///C:/Users/caleb/OneDrive/Documents/GitHub/KerbalSpaceProgramWebsite/Systems/Photos_and_Logos/Photos/Rockets/Rocket1.png" alt="Computer" height="65%" width="65%"><!--Adds photo to my carousel-->
+                  <div class="carousel-caption"><!--Caption of the photo in the carousel-->
+                    <h3>Basic Jool Satellite</h3><!--Title for the photo in the carousel-->
+                  </div><!--Closing carousel caption-->
+                </div><!--Closing carousel item..-->
+                <div class="carousel-item"><!--opens new carousel item-->
+                  <img src="file:///C:/Users/caleb/OneDrive/Documents/GitHub/KerbalSpaceProgramWebsite/Systems/Photos_and_Logos/Photos/Rover/rover2.0.jpg" alt="Computer" height="65%" width="65%"><!--Adds photo to my carousel-->
+                  <div class="carousel-caption"><!--Caption of the photo in the carousel-->
+                    <h3>Crew Capable Mun Rover</h3><!--Title for the photo in the carousel-->
+                  </div><!--Closing carousel caption-->
+                </div><!--Closing carousel item..-->
+              </div><!--closes carousel inner-->
               <!-- Left and right controls -->
-              <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-              </a>
-              <a class="carousel-control-next" href="#demo" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <h4 class="caption">Rover</h4>
-          <p></p> 
-          <div class="col">
-            <img class="KSP" src="file:///C:/Users/caleb/OneDrive/Documents/GitHub/KerbalSpaceProgramWebsite/Systems/Photos_and_Logos/Photos/Rover/Basic_Rover1.2.png" height="100%" width="40%">
-            <img class="KSP" src="file:///C:/Users/caleb/OneDrive/Documents/GitHub/KerbalSpaceProgramWebsite/Systems/Photos_and_Logos/Photos/Rover/rover2.jpg" height="100%" width="40%">
-          </div>
-        </div>
-        <div class="row">
-          <p></p>
-        </div>
-        <div class="row footer">
-          <div class="col-sm-6 col-lg4">
-            <h5>Company Info</h5>
-            <ul>
-              <li>About Us</li>
-              <li>Contact Us</li>
-              <li>Stores</li>
-              <li>Privacy</li>
-            </ul>
-          </div>
-          <div class="col-sm-6 col-lg4">
-            <h5>Services</h5>
-            <ul>
-              <li>Help</li>
-              <li</li>
-              <li>Returns</li>
-              <li>Service Parts</li>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
-          <p></p>   
-          </div>
-    </div>
-</body>
-</html>
+              <a class="carousel-control-prev" href="#demo" data-slide="prev"><!--Creating a hyperlink-->
+                <span class="carousel-control-prev-icon"></span><!--Created a span to group information-->
+              </a> <!--Closing hyperlink-->
+              <a class="carousel-control-next" href="#demo" data-slide="next"><!--Opening a new hyperlink-->
+                <span class="carousel-control-next-icon"></span><!--Creating a span to group information-->
+              </a><!--closinig hyperlink-->
+            </div> <!--Closes carousel-->
+          </div><!--Closes column-->
+        </div><!--Closes row-->
+        <div class="row"><!--Making new row-->
+          <div class="col"><!--Making new column-->
+            <h2 class="subheading">About:</h2><!--Making a heading called About for my about section on the website-->
+          </div><!--Closing the column-->
+        </div><!--Closing the row-->
+        <div class="row"><!--Opening a new row-->
+          <div class="col"><!--Opeing a new column-->
+            <h4 class="caption">Things you can build in Kerbal Space Program:</h4><!--Making a heading so the user can know what they are viewing-->
+          </div><!--Closing column-->
+        </div><!--Closing row-->
+        <div class="row"><!--Opening a new row-->
+          <div class="col"><!--Opeing a new column-->
+            <a target="_blank" href="file:///C:/Users/caleb/OneDrive/Documents/GitHub/KerbalSpaceProgramWebsite/Systems/Photos_and_Logos/Photos/Rover/Basic_Rover1.2.png"><!--Makes hyperlink so user can open picture in new tab-->
+              <img class="KSP" src="file:///C:/Users/caleb/OneDrive/Documents/GitHub/KerbalSpaceProgramWebsite/Systems/Photos_and_Logos/Photos/Rover/Basic_Rover1.2.png" height="100%" width="40%"><!--Adds image for viewer to view on website-->
+            </a><!--closes hyperlink-->
+            <a target="_blank" href="file:///C:/Users/caleb/OneDrive/Documents/GitHub/KerbalSpaceProgramWebsite/Systems/Photos_and_Logos/Photos/Rover/rover2.jpg"><!--Makes hyperlink so user can open picture in new tab-->
+              <img class="KSP" src="file:///C:/Users/caleb/OneDrive/Documents/GitHub/KerbalSpaceProgramWebsite/Systems/Photos_and_Logos/Photos/Rover/rover2.jpg" height="100%" width="40%"><!--Adds image for viewer to view on website-->
+            </a><!--closes hyperlink-->
+          </div><!--Closes column-->
+        </div><!--closes row-->
+        <div class="row"><!--makes new row-->
+          <div class="col"><!--makes new column-->
+            <h4 class="title2">Trailer:</h4><!--Adds heading called trailor so viewer knows what they are looing at-->
+          </div><!--Closes column-->
+        </div><!--closes row-->
+        <div class="row"> <!--Makes new row-->
+          <iframe width="520px" height="320px" src="https://www.youtube.com/embed/wGHICSMGO04"> <!--Adds a youtube video to website-->
+          </iframe><!--Closes iframe-->
+        </div><!--closes row-->
+        <div class="row footer"><!--Adds a footer for row-->
+          <div class="col-sm-6 col-lg4"><!--adds column and changes the size of the column-->
+            <h5>Company Info</h5> <!--Adds heaidng called Compant info-->
+            <ul><!--Adds bullitlist-->
+              <li>About Us</li><!--Adds list for about us-->
+              <li>Contact Us</li><!--Add list for contact us-->
+              <li>Stores</li><!--Adds list for stores-->
+              <li>Privacy</li><!--Adds list for privacy-->
+            </ul><!--Closes bullitlist-->
+          </div><!--Closes column-->
+          <div class="col-sm-6 col-lg4"><!--Makes new column-->
+            <h5>Services</h5><!--adds title for services-->
+            <ul><!--adds bullitlist-->
+              <li>Help</li><!--adds list for helps-->
+              <li>Returns</li><!--Adds list for returns-->
+              <li>Service Parts</li><!--adds list for service parts-->
+            </ul><!--Closes bullitlist-->
+          </div><!--Closes column-->
+        </div><!--Closes row footer-->
+        <br><!--Adds a break-->
+        </div><!--Closes container-->
+</body><!--closes body-->
+</html><!--closes HTMLs-->

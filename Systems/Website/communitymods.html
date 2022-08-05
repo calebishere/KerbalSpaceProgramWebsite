@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Document</title>
+<!DOCTYPE html><!--Makes the document type html-->
+<html lang="en"><!--Makes the language english-->
+<head><!--Opening the head for information to be inserted-->
+    <title>Document</title><!--Creates title called document-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,142 +20,141 @@
 </head>
 <body>
     <div class="container">
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
-            <!-- Toggler/collapsibe Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="frontpge.html"\>
-              <img id="navbar_logo" src="file:///C:/Users/caleb/OneDrive/Documents/GitHub/KerbalSpaceProgramWebsite/Systems/Photos_and_Logos/Logo/Screenshot%202022-06-10%20143531.jpg" height="200" alt="Logo">
-            </a>
-            <!-- Links -->
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="frontpge.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="designs.html">Rocket/Rover and More desings</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="communitymods.html">Community mods</a>
-              </li>
-            </ul>
-        </nav>  
-        <div class="row">
-          <div class="col">
-          <h2 class="title">Visual Mods</h2>
-          <table style="width:100%" class="table">
-            <tr>
-              <th>Visual Mod</th>
-              <th>Link</th>
-            </tr>
-            <tr>
-              <td>
-                <a class="PoPover" href="#" data-toggle="popover" title="Eve Mod" data-trigger="hover" data-content="Makes the game more lively with city lights and better enviroment Enhancements">Eve</a>
-              </td>
-              <td>
-                <a class="Button" href="https://forum.kerbalspaceprogram.com/index.php?/topic/149733-18-environmentalvisualenhancements-180-2/">Click Here</a>
-              </td>
-              </tr>
-              <tr>
-              <td>
-                <a class="PoPover" href="#" data-toggle="popover" title="Scatterer Mod" data-trigger="hover" data-content="Enhances Rocket propoltion and make plantes look nicer">Scatterer</a>
-              </td>
-              <td>
-                <a class="Button" href="https://spacedock.info/mod/141/scatterer">Click Here</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a class="PoPover" href="#" data-toggle="popover" title="Astronomers Mod" data-trigger="hover" data-content="Adds clouds and makes space look a lot more presentable">Atronomers Visual Pack</a>
-              </td>
-              <td>
-                <a class="Button" href="https://forum.kerbalspaceprogram.com/index.php?/topic/160878-ksp-1123-astronomers-visual-pack-beyond-v412-february-19th-2022/">Click Here</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a class="PoPover" href="#" data-toggle="popover" title="Planet Shine Mod" data-trigger="hover" data-content="Makes Planets shine on vessels and also makes planets look better">Planet Shine</a>
-              </td>
-              <td>
-                <a class="Button" href="https://forum.kerbalspaceprogram.com/index.php?/topic/189071-110x-planetshine-0263/">Click Here</a>
-              </td>
-            </tr>
-          </table>
-          </div>  
-          </div>
-          <div class="row">
-            <div class="col">
-            <h2 class="title">Gameplay Mods</h2>
-            <table style="width:100%" class="table">
-              <tr>
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="frontpge.html"><!--Makes logo a button so when user clicks on it, it will take them to the home page-->
+          <img id="navbar_logo" src="file:///C:/Users/caleb/OneDrive/Documents/GitHub/KerbalSpaceProgramWebsite/Systems/Photos_and_Logos/Logo/Screenshot%202022-06-10%20143531.jpg" height="200" alt="Logo"><!--Prints logo on navbar-->
+        </a><!--Closes tag-->
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar"> <!--Makes DIV a class and an id-->
+        <ul class="navbar-nav"><!--gives class the ul so its easier to style in CSS -->
+          <li class="nav-item"><!--Makes list a class-->
+            <a class="nav-link" href="frontpge.html">Home</a><!--Adds link to home page-->
+          </li><!--Closes specific list-->
+          <li class="nav-item"><!--Makes list a class-->
+            <a class="nav-link" href="designs.html">Rocket/Rover and More desings</a><!--Makes link to second page-->
+          </li><!--Closes list-->
+          <li class="nav-item"><!--Makes new list-->
+            <a class="nav-link" href="communitymods.html">Community mods</a><!--Makes link to community mmod page-->
+          </li><!--Closes list-->
+        </ul><!--Closes everythin (Only the lists)-->
+    </nav><!--Closes the navebar-->
+        <div class="row"> <!--opens new row-->
+          <div class="col"><!--Opens new column-->
+          <h2 class="title">Visual Mods</h2><!--Adds title called visual mods-->
+          <table style="width:100%" class="table"><!--Creates a table-->
+            <tr><!--Creates a row of cells-->
+              <th>Visual Mod</th><!--Creates title called visual mod-->
+              <th>Link</th><!--Created a title called link-->
+            </tr><!--Closes row of cells-->
+            <tr><!--Creates row of cells-->
+              <td><!--Creates table data-->
+                <a class="PoPover" href="#" data-toggle="popover" title="Eve Mod" data-trigger="hover" data-content="Makes the game more lively with city lights and better enviroment Enhancements">Eve</a><!--Adds popover descriptions/title-->
+              </td><!--Closes table data-->
+              <td><!--Creates table data-->
+                <a class="Button" href="https://forum.kerbalspaceprogram.com/index.php?/topic/149733-18-environmentalvisualenhancements-180-2/" target="_blank">Click Here</a><!--Adds Link to different website-->
+              </td><!--Closes table data-->
+              </tr><!--Closes row of cells-->
+              <tr><!--Creates a row of cells-->
+              <td><!--Creates table data-->
+                <a class="PoPover" href="#" data-toggle="popover" title="Scatterer Mod" data-trigger="hover" data-content="Enhances Rocket propoltion and make plantes look nicer">Scatterer</a><!--Adds popover descriptions/title-->
+              </td><!--Closes table data-->
+              <td><!--Creates table data-->
+                <a class="Button" href="https://spacedock.info/mod/141/scatterer" target="_blank">Click Here</a><!--Adds Link to different website-->
+              </td><!--Closes table data-->
+            </tr><!--Closes row of cells-->
+            <tr><!--Creates a row of cells-->
+              <td><!--Creates table data-->
+                <a class="PoPover" href="#" data-toggle="popover" title="Astronomers Mod" data-trigger="hover" data-content="Adds clouds and makes space look a lot more presentable">Atronomers Visual Pack</a><!--Adds popover descriptions/title-->
+              </td><!--Closes table data-->
+              <td><!--Creates table data-->
+                <a class="Button" href="https://forum.kerbalspaceprogram.com/index.php?/topic/160878-ksp-1123-astronomers-visual-pack-beyond-v412-february-19th-2022/" target="_blank">Click Here</a><!--Adds Link to different website-->
+              </td><!--Closes table data-->
+            </tr><!--Closes row of cells-->
+            <tr><!--Creates a row of cells-->
+              <td><!--Creates table data-->
+                <a class="PoPover" href="#" data-toggle="popover" title="Planet Shine Mod" data-trigger="hover" data-content="Makes Planets shine on vessels and also makes planets look better">Planet Shine</a><!--Adds popover descriptions/title-->
+              </td><!--Closes table data-->
+              <td><!--Creates table data-->
+                <a class="Button" href="https://forum.kerbalspaceprogram.com/index.php?/topic/189071-110x-planetshine-0263/" target="_blank">Click Here</a><!--Adds Link to different website-->
+              </td><!--Closes table data-->
+            </tr><!--Closes row of cells-->
+          </table><!--Closes table-->
+          </div><!--Closes Column-->
+          </div><!--Closes row-->
+          <div class="row"><!--Creates new row-->
+            <div class="col"> <!--creates new column-->
+            <h2 class="title">Gameplay Mods</h2><!--Creates title called Gameplay Mods-->
+            <table style="width:100%" class="table"><!--Creates a table-->
+              <tr><!--Creates a row of cells-->
                 <th>Gameplay Mod</th>
                 <th>Link</th>
               </tr>
-              <tr>
-                <td>
-                  <a class="PoPover" href="#" data-toggle="popover" title="Eve Mod" data-trigger="hover" data-content="Makes the game more lively with city lights and better enviroment Enhancements">Eve</a>
-                </td>
-                <td>
-                  <a class="Button" href="https://forum.kerbalspaceprogram.com/index.php?/topic/149733-18-environmentalvisualenhancements-180-2/">Click Here</a>
-                </td>
-                </tr>
-                <tr>
-                <td>
-                  <a class="PoPover" href="#" data-toggle="popover" title="Scatterer Mod" data-trigger="hover" data-content="Enhances Rocket propoltion and make plantes look nicer">Scatterer</a>
-                </td>
-                <td>
-                  <a class="Button" href="https://spacedock.info/mod/141/scatterer">Click Here</a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a class="PoPover" href="#" data-toggle="popover" title="Astronomers Mod" data-trigger="hover" data-content="Adds clouds and makes space look a lot more presentable">Atronomers Visual Pack</a>
-                </td>
-                <td>
-                  <a class="Button" href="https://forum.kerbalspaceprogram.com/index.php?/topic/160878-ksp-1123-astronomers-visual-pack-beyond-v412-february-19th-2022/">Click Here</a>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <a class="PoPover" href="#" data-toggle="popover" title="Planet Shine Mod" data-trigger="hover" data-content="Makes Planets shine on vessels and also makes planets look better">Planet Shine</a>
-                </td>
-                <td>
-                  <a class="Button" href="https://forum.kerbalspaceprogram.com/index.php?/topic/189071-110x-planetshine-0263/">Click Here</a>
-                </td>
-              </tr>
-            </table> 
-            </div> 
-            </div>
-        <div class="row footer">
-          <div class="col-sm-6 col-lg4">
-            <h5>Company Info</h5>
-            <ul>
-              <li>About Us</li>
-              <li>Contact Us</li>
-              <li>Stores</li>
-              <li>Privacy</li>
-            </ul>
-          </div>
-          <div class="col-sm-6 col-lg4">
-            <h5>Services</h5>
-            <ul>
-              <li>Help</li>
-              <li</li>
-              <li>Returns</li>
-              <li>Service Parts</li>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
-          <p></p>   
-          </div>
+              <tr><!--Creates a row of cells-->
+                <td><!--Creates table data-->
+                  <a class="PoPover" href="#" data-toggle="popover" title="Kerbal Engineer Redux" data-trigger="hover" data-content="Makes the player view delta v, how fast or high they are. What biom they are in, and more!">Kerbal Engineer</a> <!--Adds popover descriptions/title-->
+                </td><!--Closes table data-->
+                <td><!--Creates table data-->
+                  <a class="Button" href="https://forum.kerbalspaceprogram.com/index.php?/topic/17833-130-kerbal-engineer-redux-1130-2017-05-28/" target="_blank">Click Here</a> <!--Adds Link to different website-->
+                </td><!--Closes table data-->
+                </tr><!--Closes row of cells-->
+                <tr><!--Creates a row of cells-->
+                <td><!--Creates table data-->
+                  <a class="PoPover" href="#" data-toggle="popover" title="Kerbal Alarm Clock" data-trigger="hover" data-content="Be able to precisly mark a maneuver node to crose counter another planet">Kerbal Alarm  Clock</a><!--Adds popover descriptions/title-->
+                </td><!--Closes table data-->
+                <td><!--Creates table data-->
+                  <a class="Button" href="https://forum.kerbalspaceprogram.com/index.php?/topic/22809-112x-kerbal-alarm-clock-v31300-april-10/" target="_blank">Click Here</a><!--Adds Link to different website-->
+                </td><!--Closes table data-->
+              </tr><!--Closes row of cells-->
+              <tr><!--Creates a row of cells-->
+                <td><!--Creates table data-->
+                  <a class="PoPover" href="#" data-toggle="popover" title="Kerbal Interstellar Extended" data-trigger="hover" data-content="Be able to unlock variuos of different parts and an extensive galaxy to explore">Kerbal Interstellar Extended</a><!--Adds popover descriptions/title-->
+                </td><!--Closes table data-->
+                <td><!--Creates table data-->
+                  <a class="Button" href="https://forum.kerbalspaceprogram.com/index.php?/topic/173818-181-1122-ksp-interstellar-extended-1295-release-thread/" target="_blank">Click Here</a><!--Adds Link to different website-->
+                </td><!--Closes table data-->
+              </tr><!--Closes row of cells-->
+              <tr><!--Creates a row of cells-->
+                <td><!--Creates table data-->
+                  <a class="PoPover" href="#" data-toggle="popover" title="Docking Port Alignment Indicator" data-trigger="hover" data-content="To view a camera in the docking port to perfectly align your two vessels to dock with each other">Docking Port Alignment</a><!--Adds popover descriptions/title-->
+                </td><!--Closes table data-->
+                <td><!--Creates table data-->
+                  <a class="Button" href="https://forum.kerbalspaceprogram.com/index.php?/topic/40423-181-docking-port-alignment-indicator-version-685-updated-121419/" target="_blank">Click Here</a><!--Adds Link to different website-->
+                </td><!--Closes table data-->
+              </tr><!--Closes row of cells-->
+            </table> <!--Closes table-->
+            </div> <!--Closes columbn-->
+            </div> <!--Closes row-->
+            <div class="row footer"><!--Adds a footer for row-->
+              <div class="col-sm-6 col-lg4"><!--adds column and changes the size of the column-->
+                <h5>Company Info</h5> <!--Adds heaidng called Compant info-->
+                <ul><!--Adds bullitlist-->
+                  <li>About Us</li><!--Adds list for about us-->
+                  <li>Contact Us</li><!--Add list for contact us-->
+                  <li>Stores</li><!--Adds list for stores-->
+                  <li>Privacy</li><!--Adds list for privacy-->
+                </ul><!--Closes bullitlist-->
+              </div><!--Closes column-->
+              <div class="col-sm-6 col-lg4"><!--Makes new column-->
+                <h5>Services</h5><!--adds title for services-->
+                <ul><!--adds bullitlist-->
+                  <li>Help</li><!--adds list for helps-->
+                  <li>Returns</li><!--Adds list for returns-->
+                  <li>Service Parts</li><!--adds list for service parts-->
+                </ul><!--Closes bullitlist-->
+              </div><!--Closes column-->
+            </div><!--Closes row footer-->
+            <br><!--Adds a break-->
     </div>
 </body>
+<!--Adds java script-->
 <script>
-  $(document).ready(function(){
-      $('[data-toggle="popover"]').popover();   
-  });
-  </script> 
-</html>
+  $(document).ready(function(){ /*Adds a document ready function*/
+      $('[data-toggle="popover"]').popover();   /*Adds popover*/
+  }); /*Closes function*/
+  </script>
+  <!--Closes script-->
+</html><!--Closes HTML-->

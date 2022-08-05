@@ -1,93 +1,136 @@
-body{
-    background-color: grey;
-    background-image: url("#");
-    padding: 10px;
+body{/*Makes a css code for all of the body information in each page*/
+    background-color: grey;/*Makes the background color grey*/
+    padding: 10px;/*Makes space around information/image*/
 }
-.row{
-    margin: 0px;
+.row{/*Makes a row code for all the information inside row*/
+    margin: 0px;/*Margin is used to maove or direct information*/
 }
-.title{
-    padding: 3px;
-    margin-left: auto;
-    margin-right: auto;
+.title{/*Makes a title code for all of the body information in each page*/
+    padding: 3px;/*Makes space around information/image*/
+    margin-left: auto;/*Margin is used to maove or direct information, in this case to the left*/
+    margin-right: auto;/*Margin is used to maove or direct information, in this case to the right*/
 }
-.navbar{
-    background-color: rgba(41, 35, 35, 0);
+.navbar{/*Makes a Navbar code for all of the body information in each page*/
+    background-color: rgba(41, 35, 35, 0); /*RGBA is for changing the colour manually*/
 }
-.container{
-    background-color: white;
-    margin-left: auto;
-    margin-right: auto;
+.container{/*Makes a Container code for all of the body information in each page*/
+    background-color: white;/*Makes the background color White*/
+    margin-left: auto;/*Margin is used to maove or direct information, in this case to the left*/
+    margin-right: auto;/*Margin is used to maove or direct information, in this case to the right*/
 }
-.navbar-nav{
-    font-weight: bold;
-    font-size: 23px;
-    padding: 3px;
+.navbar-nav{/*Makes a Navbar-nav code for all of the body information in each page*/
+    font-weight: bold;/*Makes the text look more presentable*/
+    font-size: 23px;/*Changes the size of the font to 23px*/
+    padding: 3px;/*Makes space around information/image*/
     
 }
-.nav-item:hover{
-    border-top: 4px solid black;
+.nav-item:hover{/*Makes a Navbar-nav-item:hover code for all of the body information in each page*/
+    border-top: 4px solid black;/*When hovering mouse over the navbar options, it will display a black bar on top of option*/
 }
-.Title{
-    font-weight: bold;
-    text-decoration: underline;
-    margin-left: auto;
-    margin-right: auto;
+.Title{/*Makes a title code for all of the body information in each page*/
+    font-weight: bold;/*Makes the text look more presentable*/
+    text-decoration: underline;/*Underlines text*/
+    margin-left: auto;/*Margin is used to maove or direct information, in this case to the left*/
+    margin-right: auto;/*Margin is used to maove or direct information, in this case to the right*/
 }
-.carousel-inner{
-    text-align: center;
+.carousel-inner{/*Makes a Carousel-inner code for all of the body information in each page*/
+    text-align: center;/*Makes text align to the centre of the page*/
 }
-.carousel-caption{
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 3px;
+.carousel-caption{/*Makes a Carousel caption code for all of the body information in each page*/
+    background-color: rgba(0, 0, 0, 0.5);/*RGBA is for changing the colour manually*/
+    border-radius: 3px;/*Makes the edges of border have a slight curve*/
 }
-.carousel{
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 3px;
+.carousel{/*Makes a Carousel code for all of the body information in each page*/
+    background-color: rgba(0, 0, 0, 0.6);/*RGBA is for changing the colour manually*/
+    border-radius: 3px;/*Makes the edges of border have a slight curve*/
 
 }
-.footer{
-    background-color: rgba(41, 35, 35, 0.2);
-    border-radius: 20px;
-    padding: 20px;
+.footer{/*Makes a footer code for all of the body information in each page*/
+    background-color: rgba(41, 35, 35, 0.2);/*RGBA is for changing the colour manually*/
+    border-radius: 20px;/*Makes the edges of border have a slight curve*/
+    padding: 20px;/*Makes space around information/image*/
 
 }
-.Button:hover{
-    border-top: 4px solid black;
-    text-decoration: none;
-    color: black;
+.Button:hover{/*Makes a Button hover code for all of the body information in each page*/
+    border-top: 4px solid black;/*When hovering mouse over the navbar options, it will display a black bar on top of option*/
+    text-decoration: none;/*dosen't add any decoration*/
+    color: black;/*Makes the text black on hover*/
 }
-.Button, Button{
-    font-weight: bold;
-    color:dimgrey;
-    text-decoration: none;
+.Button, Button{/*Makes a Button hover code for all of the body information in each page*/
+    font-weight: bold;/*Makes the text look more presentable*/
+    color:dimgrey;/*Makes the colour dimgrey*/
+    text-decoration: none;/*dosen't add any decoration*/
 }
-.Title{
-    font-weight: bold;
-    color: black;
-    border: 2px solid black;
-    text-decoration: none;
-    background-color: lightgrey;
-    margin-bottom: 90px;
-    margin-top: 10px;
-    padding: 2%;
-    border-radius: 20%;
+.Title{/*Makes a title hover code for all of the body information in each page*/
+    font-weight: bold;/*Makes the text look more presentable*/
+    color: black;/*Makes the colour black*/
+    border: 2px solid black;/*Changes the border to solid black for the title*/
+    text-decoration: none;/*dosen't add any decoration*/
+    background-color: lightgrey;/*Changes the background colour of title to lightgrey*/
+    margin-bottom: 90px;/*Margin is used to maove or direct information, in this case to the bottom*/
+    margin-top: 10px;/*Margin is used to maove or direct information, in this case to the top*/
+    padding: 2%;/*Makes space around information/image*/
+    border-radius: 20%;/*Makes the edges of border have a slight curve*/
 }
-.PoPover:hover{
-    text-decoration: none;
-    color: dimgray;
+.PoPover:hover{/*Makes a popover:hover hover code for all of the body information in each page*/
+    text-decoration: none;/*dosen't add any decoration*/
+    color: dimgray;/*Makes the colour dimgrey*/
 }
-.PoPover{
-    color: dimgray;
-    font-weight: bold;
-    padding-top: 2px;
+.PoPover{/*Makes a popover code for all of the body information in each page*/
+    color: dimgray;/*Makes the colour dimgrey*/
+    font-weight: bold;/*Makes the text look more presentable*/
+    padding-top: 2px; /*Makes space around information/image on the top*/
 }
-.KSP{
-    margin-top: 1%;
-    margin-bottom: -0.5%;
+.KSP{/*Makes a KSP information code for all of the body information in each page*/
+    margin-top: 1%;/*Margin is used to maove or direct information, in this case to the top*/
+    margin-bottom: -0.5%;/*Margin is used to maove or direct information, in this case to the bottom*/
     
 }
-.caption{
-    margin-left: 0%;
-    margin-right: 0%;
+.caption{/*Makes a caption information code for all of the body information in each page*/
+    margin-left: auto;/*Margin is used to maove or direct information, in this case to the left*/
+    margin-right: auto;/*Margin is used to maove or direct information, in this case to the right*/
+    margin-top: 100px;/*Margin is used to maove or direct information, in this case to the top*/
 }
+.KSP {/*Makes a KSP information code for all of the body information in each page*/
+    border: 1px solid #ddd;/*Changes the border to solid white for the title*/
+    border-radius: 4px;/*Makes the edges of border have a slight curve*/
+    padding: 5px;/*Makes space around information/image*/
+    margin-left: auto;/*Margin is used to maove or direct information, in this case to the left*/
+    margin-right: auto; /*Margin is used to maove or direct information, in this case to the right*/
+  }
+  
+  .KSP:hover {/*Makes a KSP hover information code for all of the body information in each page*/
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);/*Custom changing box shadow*/
+  }
+  iframe{/*Makes a iframe information code for all of the body information in each page*/
+    margin-top: 70px;/*Margin is used to maove or direct information, in this case to the top*/
+    margin-bottom: 20px;/*Margin is used to maove or direct information, in this case to the bottom*/
+    margin-left: auto;/*Margin is used to maove or direct information, in this case to the left*/
+    margin-right: auto;/*Margin is used to maove or direct information, in this case to the right*/
+  }
+  .title2{/*Makes a title2 information code for all of the body information in each page*/
+    padding: 8px;/*Makes space around information/image*/
+  }
+  .subheading{/*Makes a subheading information code for all of the body information in each page*/
+    background-color: lightgrey;/*Changes the background colour of title to lightgrey*/
+    text-align: center;/*Aligns the text to the center*/
+    padding: 3px;/*Makes space around information/image*/
+    margin-top: 10px;/*Margin is used to maove or direct information, in this case to the top*/
+  }
+
+  .title3{/*Makes a title3 information code for all of the body information in each page*/
+    background-color: lightgray;/*Changes the background colour of title to lightgrey*/
+    text-align: center;/*Aligns the text to the center*/
+  }
+  .col2{/*Makes a col2 information code for all of the body information in each page*/
+    background-color: lightgrey;/*Changes the background colour of title to lightgrey*/
+    margin-left: auto;/*Margin is used to maove or direct information, in this case to the left*/
+    margin-right: auto;/*Margin is used to maove or direct information, in this case to the right*/
+    width: 100%;/*Changes the width of the infromation*/
+    text-align: center;/*Aligns the text to the center*/
+    padding: 9px;/*Makes space around information/image*/
+  }
+  .InterPlanet{/*Makes a col2 information code for all of the body information in each page*/
+    margin-left: 750px;/*Margin is used to maove or direct information, in this case to the left*/
+    position: fixed;/*Fixes the position in order for the image to not move*/
+  }

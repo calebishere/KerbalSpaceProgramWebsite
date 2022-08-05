@@ -1,6 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<!DOCTYPE html><!--Makes the document type html-->
+<html lang="en"><!--Makes the language english-->
+<head><!--Opening the head for information to be inserted-->
     <title>Document</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,51 +20,82 @@
 </head>
 <body>
     <div class="container">
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
-            <!-- Toggler/collapsibe Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="#"\>
-              <img id="navbar_logo" src="file:///C:/Users/caleb/OneDrive/Documents/GitHub/KerbalSpaceProgramWebsite/Systems/Photos_and_Logos/Logo/Screenshot%202022-06-10%20143531.jpg" height="200" alt="Logo">
-            </a>
-            <!-- Links -->
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="frontpge.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="designs.html">Rocket/Rover and More desings</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="communitymods.html">Community mods</a>
-              </li>
-            </ul>
-        </nav>  
-        <div class="row footer">
-          <div class="col-sm-6 col-lg4">
-            <h5>Company Info</h5>
-            <ul>
-              <li>About Us</li>
-              <li>Contact Us</li>
-              <li>Stores</li>
-              <li>Privacy</li>
-            </ul>
-          </div>
-          <div class="col-sm-6 col-lg4">
-            <h5>Services</h5>
-            <ul>
-              <li>Help</li>
-              <li</li>
-              <li>Returns</li>
-              <li>Service Parts</li>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
-          <p></p>   
-          </div>
-    </div>
-</body>
-</html>
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="frontpge.html"><!--Makes logo a button so when user clicks on it, it will take them to the home page-->
+          <img id="navbar_logo" src="file:///C:/Users/caleb/OneDrive/Documents/GitHub/KerbalSpaceProgramWebsite/Systems/Photos_and_Logos/Logo/Screenshot%202022-06-10%20143531.jpg" height="200" alt="Logo"><!--Prints logo on navbar-->
+        </a><!--Closes tag-->
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar"> <!--Makes DIV a class and an id-->
+        <ul class="navbar-nav"><!--gives class the ul so its easier to style in CSS -->
+          <li class="nav-item"><!--Makes list a class-->
+            <a class="nav-link" href="frontpge.html">Home</a><!--Adds link to home page-->
+          </li><!--Closes specific list-->
+          <li class="nav-item"><!--Makes list a class-->
+            <a class="nav-link" href="designs.html">Rocket/Rover and More desings</a><!--Makes link to second page-->
+          </li><!--Closes list-->
+          <li class="nav-item"><!--Makes new list-->
+            <a class="nav-link" href="communitymods.html">Community mods</a><!--Makes link to community mmod page-->
+          </li><!--Closes list-->
+        </ul><!--Closes everythin (Only the lists)-->
+    </nav><!--Closes the navebar-->
+        <br><!--Adds a gap between nav and information-->
+        <div class="row"><!--Creates a row-->
+          <div class="col"><!--Creates a column-->
+            <h1 class="title3">KSP Craft Designs</h1><!--Adds title to page called KSP Craft Desings-->
+            <br><!--Adds a break in the information-->
+          </div><!--Closes col-->
+        </div><!--Closes row-->
+        <div class="row"><!--Creates a row-->
+          <div class="col2"><!--Creates a column, i called it col2 so its easy identified in css-->
+            <h3 class="title4">Beginning Rockets</h3><!--Makes title called beginning rockets-->
+            <img class="InterPlanet1" src="file:///C:/Users/caleb/OneDrive/Documents/GitHub/KerbalSpaceProgramWebsite/Systems/Photos_and_Logos/Photos/Rockets/Rocket2.jpg" alt="InterplanetaryRocket" width="350px" height="250px"><!--Adds photo under the title-->
+            <img class="InterPlanet2" src="file:///C:/Users/caleb/OneDrive/Documents/GitHub/KerbalSpaceProgramWebsite/Systems/Photos_and_Logos/Photos/Rockets/Rocket1.png" alt="InterplanetaryRocket" width="350px" height="250px"><!--Adds photo under the title-->
+            <img class="InterPlanet2" src="file:///C:/Users/caleb/OneDrive/Documents/GitHub/KerbalSpaceProgramWebsite/Systems/Photos_and_Logos/Photos/Rockets/nogoodrocket.jpg" alt="InterplanetaryRocket" width="350px" height="250px"><!--Adds photo under the title-->
+          </div><!--Closes column 2-->
+        </div><!--Closes row-->
+        <br><!--Leaves a break between photos-->
+        <div class="row"><!--Creates a row-->
+          <div class="col2"><!--Creates a column-->
+            <h3 class="title4">Interplantry Rockets</h3><!--Creates title called Interplanetary Rockets-->
+            <img class="InterPlanet1" src="file:///C:/Users/caleb/OneDrive/Documents/GitHub/KerbalSpaceProgramWebsite/Systems/Photos_and_Logos/Photos/Rockets/InterplanetaryRocket2.png" alt="InterplanetaryRocket" width="350px" height="250px"><!--Adds photo under the title-->
+            <img class="InterPlanet2" src="file:///C:/Users/caleb/OneDrive/Documents/GitHub/KerbalSpaceProgramWebsite/Systems/Photos_and_Logos/Photos/Rockets/InterplanetaryRocket.jpg" alt="InterplanetaryRocket" width="350px" height="250px"><!--Adds photo under the title-->
+            <img class="InterPlanet2" src="file:///C:/Users/caleb/OneDrive/Documents/GitHub/KerbalSpaceProgramWebsite/Systems/Photos_and_Logos/Photos/Rockets/InterplanetaryRocket3.jpg" alt="InterplanetaryRocket" width="350px" height="250px"><!--Adds photo under the title-->
+          </div><!--Closes column 2-->
+        </div><!--Closes row-->
+        <br><!--Leaves a break between photos-->
+        <div class="row"><!--Creates a row-->
+          <div class="col2"><!--Creates a column-->
+            <h3 class="title4">Exploration Rovers</h3>
+            <img class="InterPlanet1" src="file:///C:/Users/caleb/OneDrive/Documents/GitHub/KerbalSpaceProgramWebsite/Systems/Photos_and_Logos/Photos/Rover/rover2.0.jpg" alt="InterplanetaryRocket" width="350px" height="250px"><!--Adds photo under the title-->
+            <img class="InterPlanet2" src="file:///C:/Users/caleb/OneDrive/Documents/GitHub/KerbalSpaceProgramWebsite/Systems/Photos_and_Logos/Photos/Rover/Basic_Rover1.2.png" alt="InterplanetaryRocket" width="350px" height="250px"><!--Adds photo under the title-->
+            <img class="InterPlanet2" src="file:///C:/Users/caleb/OneDrive/Documents/GitHub/KerbalSpaceProgramWebsite/Systems/Photos_and_Logos/Photos/Rover/ROVERMARS.jpg" alt="InterplanetaryRocket" width="350px" height="250px"><!--Adds photo under the title-->
+          </div><!--Closes column 2-->
+        </div><!--Closes row-->
+        <br><!--Leaves a break between photos-->
+        <div class="row footer"><!--Adds a footer for row-->
+          <div class="col-sm-6 col-lg4"><!--adds column and changes the size of the column-->
+            <h5>Company Info</h5> <!--Adds heaidng called Compant info-->
+            <ul><!--Adds bullitlist-->
+              <li>About Us</li><!--Adds list for about us-->
+              <li>Contact Us</li><!--Add list for contact us-->
+              <li>Stores</li><!--Adds list for stores-->
+              <li>Privacy</li><!--Adds list for privacy-->
+            </ul><!--Closes bullitlist-->
+          </div><!--Closes column-->
+          <div class="col-sm-6 col-lg4"><!--Makes new column-->
+            <h5>Services</h5><!--adds title for services-->
+            <ul><!--adds bullitlist-->
+              <li>Help</li><!--adds list for helps-->
+              <li>Returns</li><!--Adds list for returns-->
+              <li>Service Parts</li><!--adds list for service parts-->
+            </ul><!--Closes bullitlist-->
+          </div><!--Closes column-->
+        </div><!--Closes row footer-->
+        <br><!--Leaves space between bottom of page and contact details-->
+    </div><!--Closes container-->
+</body><!--Closes body-->
+</html><!--Closes html-->
